@@ -9,6 +9,11 @@ body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 a.button {
     background-color: #ffffff;
     color: #000000;
@@ -40,11 +45,6 @@ header {
     gap: 50px;
 }
 
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 #login {
     text-align: right;
 }
@@ -55,9 +55,6 @@ a {
     margin: 25px auto;
     padding: 50px;
     text-align: center;
-}
-
-.jumbo-box {
     font-size: 20px;  
 }
 
@@ -71,7 +68,6 @@ a {
 
 .jumbo-box a {
     border-radius: 28px;
-    font-size: 20px;
     padding: 16px 32px;
     margin: 10px;
 }

@@ -49,13 +49,36 @@ a {
     text-align: right;
 }
 
-#header-info {
+#jumbotron {
     width: 60%;
     min-height: 400px;
     margin: 25px auto;
-    /* DEBUG */
-    background-color: #ee82ee;
-    border: 1px dashed black;
+    padding: 50px;
+    text-align: center;
+}
+
+.jumbo-box {
+    font-size: 20px;  
+}
+
+.jumbo-box.title {
+    font-size: 50px;
+}
+
+.jumbo-box p {
+    margin: 30px;
+}
+
+.jumbo-box a {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin: 10px;
+}
+
+#open {
+    color: #ffffff;
+    background-color: #23272a;
 }
 
 /* regole main */

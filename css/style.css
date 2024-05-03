@@ -33,20 +33,11 @@ header {
     justify-content: space-between;
 }
 
-#header-banner div {
-    /* width: 25%; */
-    padding: 20px;
-}
-
-#header-banner nav {
-    /* width: 50%; */
-}
-
 #main-menu {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    gap: 80px;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 a {
@@ -58,14 +49,10 @@ a {
     text-align: right;
 }
 
-#header-container {
-    padding: 25px 0;
-}
-
 #header-info {
     width: 60%;
-    min-height: 200px;
-    margin: 0 auto;
+    min-height: 400px;
+    margin: 25px auto;
     /* DEBUG */
     background-color: #ee82ee;
     border: 1px dashed black;

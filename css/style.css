@@ -1,0 +1,161 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+body {
+    background-color: #add8e6;
+}
+
+/* regole header */
+#header-banner {
+    width: 80%;
+    background-color: #daa520;
+    min-height: 30px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+#header-banner div {
+    width: 25%;
+    padding: 5px;
+    /* DEBUG */
+    border: 1px dashed black;
+}
+
+#header-banner nav {
+    width: 50%;
+    padding: 5px;
+    /* DEBUG */
+    border: 1px dashed black;
+}
+
+#main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+#login {
+    text-align: right;
+}
+
+#header-container {
+    padding: 25px 0;
+    /* DEBUG */
+    background-color: #00008b;
+}
+
+#header-info {
+    width: 60%;
+    min-height: 200px;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+/* regole main */
+.row {
+    padding: 25px 0;
+    background-color: #ffffff;
+}
+
+.row.even, #subscription {
+    background-color: #d3d3d3;
+}
+
+.row-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.picture {
+    height: 250px;
+    width: 60%;
+    /* DEBUG  */
+    border: 1px dashed black;
+    background-color: #1e90ff;
+}
+
+.text {
+    height: 250px;
+    width: 40%;
+    /* DEBUG */
+    border: 1px dashed black;
+    background-color: #ffc0cb;
+}
+
+.row-container.subscription {
+    height: 550px;
+}
+
+.center {
+    background-color: #228b22;
+    width: 100%;
+    border: 1px dashed black;
+    height: 550px;
+}
+
+/* regole footer */
+footer {
+    background-color: #23272a;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.footer-container.up {
+    border-bottom: solid white 1px;
+    display: flex;
+}
+
+.box {
+    min-height: 550px;
+}
+
+.box.icons {
+    width: 30%;
+    border: dashed 1px #000000;
+    background-color: #f08080;
+}
+
+.box.links {
+    width: 70%;
+    display: flex;
+}
+
+.link-col {
+    width: 25%;
+    background-color: #20b2aa;
+    border: dashed 1px white;
+}
+
+#footer-banner {
+    height: 30px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credit {
+    width: 60px;
+    background-color: #ffb6c1;
+    border: dashed 1px #000000;
+}
+

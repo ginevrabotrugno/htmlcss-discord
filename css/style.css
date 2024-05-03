@@ -9,6 +9,10 @@ body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #ffffff;
@@ -127,12 +131,13 @@ header {
 /* regole footer */
 footer {
     background-color: #23272a;
+    color: #ffffff;
 }
 
 .footer-container {
     width: 80%;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 25px;
 }
 
 .footer-container.up {
@@ -140,38 +145,48 @@ footer {
     display: flex;
 }
 
-.box {
-    min-height: 550px;
-}
-
 .box.icons {
     width: 30%;
-    border: dashed 1px #000000;
-    background-color: #f08080;
+}
+
+.fa-brands, .language {
+    padding: 10px;
+}
+
+#flag {
+    width: 20px;
+}
+
+.box.icons h4 {
+    color: #7289da;
+    font-size: 40px;
+    margin: 20px 10px;
 }
 
 .box.links {
     width: 70%;
     display: flex;
+    margin: 20px 10px;
+    padding: 10px;
 }
 
 .link-col {
     width: 25%;
-    background-color: #20b2aa;
-    border: dashed 1px white;
+}
+
+.link-list li {
+    padding: 5px 0;
+}
+
+.list-title {
+    color: #7289da;
 }
 
 #footer-banner {
     height: 30px;
-    background-color: #7fffd4;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.credit {
-    width: 60px;
-    background-color: #ffb6c1;
-    border: dashed 1px #000000;
-}
 
